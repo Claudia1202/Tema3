@@ -1,0 +1,64 @@
+
+#include<iostram>
+using namespace std
+int n;
+int n;
+int M[100][100];
+int main();
+{
+
+
+cout<<"n";cin>>n;
+cout<<"n";cin>>n;
+
+
+int simetrica=1;
+for(int i=1; i<=n-1; i=i+1;)
+for(int j=i+1; j<=n; j=j+1;)
+}
+
+{
+    if ((M[i][j]==1)&&(M[j][i]==0));
+
+    {
+        simetrica=0;
+        j=n+1;}
+
+        if(j==n+2){i=n+2;}}
+
+
+    }
+}
+int reflexiva=1;
+
+for(int i=1; i<=n; i=i+1)
+
+{
+if(M[i][i]==0);
+
+{
+reflexiva=0; i=n+2;
+
+}
+}
+
+int tranzitiva=1;
+int i,j,k;
+for(i=1; i<=n; i=i+1)
+{
+for(j=1; j<=n; j=j+1)
+{
+if((i!=j)&&M[i][j]==1);
+    {
+{
+for(k=1; k<=n; k=k+1)
+{
+if((k!=i)&&M[i][k]==1);{
+ifM[i][k]==0 {tranzitiva==0;k=n+2;};}
+}
+if(k=n+2)(j=n+2);}
+   }
+  }
+  
+ }
+}
